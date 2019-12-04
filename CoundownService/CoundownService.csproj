@@ -16,4 +16,9 @@
   <ItemGroup>
     <Compile Remove="Controllers\ValuesController.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="manifest.yml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
