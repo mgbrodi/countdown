@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countdown", "Countdown\Countdown.csproj", "{A08019FF-D8E5-46F4-B03D-4544B87CCC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoundownService", "CoundownService\CoundownService.csproj", "{6FB8466B-5DFD-45F7-90BC-3EDFCA8B1AD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08019FF-D8E5-46F4-B03D-4544B87CCC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08019FF-D8E5-46F4-B03D-4544B87CCC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08019FF-D8E5-46F4-B03D-4544B87CCC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08019FF-D8E5-46F4-B03D-4544B87CCC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB8466B-5DFD-45F7-90BC-3EDFCA8B1AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB8466B-5DFD-45F7-90BC-3EDFCA8B1AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB8466B-5DFD-45F7-90BC-3EDFCA8B1AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB8466B-5DFD-45F7-90BC-3EDFCA8B1AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

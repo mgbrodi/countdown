@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<script src="//code.jquery.com/jquery.min.js" type="text/javascript"></script>
+<script>$(function () {
+        $('#btn-refresh').on('click', function () {
+            $.get('/api/countdown/' + $('#input-seconds').val(), function (data) {
+                $('#result').empty()
+                $('#result').html(data);
+            }, 'json');
+        });
+    });</script>
+<div class="text-center">
+    <h1 class="display-4">Welcome to the countdown</h1>
+
+    <button id="btn-refresh">Show the countdown for</button> <input id="input-seconds"/>
+  
+    <div id="result"></div>
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
