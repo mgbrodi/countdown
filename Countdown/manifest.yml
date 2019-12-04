@@ -1,0 +1,6 @@
+﻿---
+applications:
+- name: countdown-pivotui
+  memory: 1G
+  instances: 1
+  

@@ -1,0 +1,6 @@
+﻿---
+applications:
+- name: countdown-pivotmg
+  memory: 1G
+  instances: 1
+  
