@@ -14,7 +14,8 @@ namespace Countdown.Pages
         public void OnGet()
         {
             ViewData["TextResult"] = "";
-            var url = new Uri("https://countdown-service.apps.internal/api/countdown/98797");
+            Random rnd = new Random();
+            var url = new Uri("http://countdown-service.apps.internal:8080/api/countdown/"+rnd.Next(1,2000).ToString());
             try
             {
                 //We will now define your HttpClient with your first using statement which will use a IDisposable.
